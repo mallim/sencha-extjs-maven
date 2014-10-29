@@ -88,6 +88,6 @@ Now you have fully funtional Java web application.
 		</link>
 	</web>
 	
-# Modifications done here:
+# Modifications Done in this Fork:
 * Included jetty plugin, make pom.xml work
 * Include registration form example from https://github.com/walkingtree/sample-projects/tree/master/ExtJS/RegistrationSample
