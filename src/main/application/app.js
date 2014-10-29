@@ -6,9 +6,19 @@
 Ext.application({
     name: 'MyApp',
 
-    extend: 'MyApp.Application',
-    
-    autoCreateViewport: 'MyApp.view.main.Main'
+    controllers: ["Main"],
+
+    views: ['Main'],
+
+    requires:['MyApp.view.Main'],
+
+    launch: function() {
+      Ext.create('Ext.container.Viewport', {
+        items: {
+          xtype: 'mainview'
+        }
+      });
+    }
 	
     //-------------------------------------------------------------------------
     // Most customizations should be made to MyApp.Application. If you need to

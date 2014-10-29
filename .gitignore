@@ -1,5 +1,6 @@
 .idea
 *.iml
+target
 src/main/application/build
 src/main/application/ext
 src/main/application/sass/example/bootstrap.js

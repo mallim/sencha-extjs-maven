@@ -87,3 +87,7 @@ Now you have fully funtional Java web application.
 			</dir>
 		</link>
 	</web>
+	
+# Modifications done here:
+* Included jetty plugin, make pom.xml work
+* Include registration form example from https://github.com/walkingtree/sample-projects/tree/master/ExtJS/RegistrationSample
