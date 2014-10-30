@@ -1,15 +1,12 @@
 Ext.define("MyApp.view.Main", {
   extend: 'Ext.Container',
   alias: 'widget.mainview',
-  renderTo: Ext.getBody(),
 
-  width: 500,
-  height: 250,
   initComponent : function() {
     var me = this;
     var required = '<span style="color:red;font-weight:bold" data-qtip="Required">*</span>';
 
-    Ext.apply(me, {
+    Ext.apply( me, {
       layout: {
         type: 'card',
         activeItem: 1
@@ -104,7 +101,7 @@ Ext.define("MyApp.view.Main", {
 
       }]
     });
-    me.callParent(arguments);
+    me.callParent( arguments );
   }
 
 });

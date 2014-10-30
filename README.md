@@ -1,3 +1,11 @@
+# Modifications Done in this Fork:
+
+* Included jetty plugin, make pom.xml work
+* Include registration form example from https://github.com/walkingtree/sample-projects/tree/master/ExtJS/RegistrationSample
+* Viewport example from http://devjs.eu/en/creating-fullscreen-ext-js-4-app-with-the-borderlayout/ 
+* Navigation Bars from http://whatisextjs.com/extjs-examples/responsive-design-in-extjs
+* @TODO Car Tracker https://github.com/existdissolve/CarTracker
+
 # How to generate ExtJS 5 project with Sencha Cmd 5
 
 At the moment [Sencha ExtJS 5 Beta](http://www.sencha.com/blog/announcing-public-beta-of-ext-js-5/) is out.
@@ -88,6 +96,4 @@ Now you have fully funtional Java web application.
 		</link>
 	</web>
 	
-# Modifications Done in this Fork:
-* Included jetty plugin, make pom.xml work
-* Include registration form example from https://github.com/walkingtree/sample-projects/tree/master/ExtJS/RegistrationSample
+
