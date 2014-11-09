@@ -5,7 +5,7 @@
 * Viewport example from http://devjs.eu/en/creating-fullscreen-ext-js-4-app-with-the-borderlayout/ 
 * Navigation Bars from http://whatisextjs.com/extjs-examples/responsive-design-in-extjs
 * @TODO Car Tracker https://github.com/existdissolve/CarTracker
-* @TODO Try out Pillbox like selection box https://github.com/kveeiv/extjs-boxselect
+* @TODO Try out Pillbox like selection box https://github.com/kveeiv/extjs-boxselect (**Updated:** no need to try this anymore, this is being included in ExtJS 5 standard package)
 
 # How to generate ExtJS 5 project with Sencha Cmd 5
 
